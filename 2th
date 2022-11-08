@@ -1,0 +1,19 @@
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+int main() {
+ int x;
+ int sum = 0;
+ int maxV = 0;
+ while (cin >> x) {
+  sum = max(0, sum + x);
+  maxV = max(maxV, sum);
+  if (cin.get() == '\n')
+   break;
+ }
+ cout << "最大和字段：" << maxV << endl;
+ system("pause");
+ return 0;
+}
