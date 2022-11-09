@@ -44,7 +44,7 @@ namespace app
 		TEST_METHOD(TestMethod3)
 		{
 			int n = 6, m, p = 0, max = 0;
-			int a[6] = {1,2,3,-4,1,2 };
+			int a[6] = {1,2,3,4,1,2 };
 			for (m = 0; m < n; m++)
 			{
 				if (p < 0)
@@ -60,7 +60,7 @@ namespace app
 		TEST_METHOD(TestMethod4)
 		{
 			int n = 7, m, p = 0, max = 0;
-			int a[7] = {-17,-15,-22,-6,7,-8,3};
+			int a[7] = {-17,-15,-22,-6,-7,-8,-3};
 			for (m = 0; m < n; m++)
 			{
 				if (p < 0)
